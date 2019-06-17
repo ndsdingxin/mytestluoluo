@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>昊音通语音识别</title>
+    <style id="tsbrowser_video_independent_player_style" type="text/css">                                                            [tsbrowser_force_max_size] {                                                   width: 100% !important;                                                      height: 100% !important;                                                     left: 0px !important;                                                        top: 0px !important;                                                         margin: 0px !important;                                                      padding: 0px !important;                                                   }                                                                            [tsbrowser_force_fixed] {                                                      position: fixed !important;                                                  z-index: 9999 !important;                                                    background: black !important;                                              }                                                                            [tsbrowser_force_hidden] {                                                     opacity: 0 !important;                                                       z-index: 0 !important;                                                     }                                                                            [tsbrowser_hide_scrollbar] {                                                   overflow: hidden !important;                                               }
+
+    </style>
+    <link rel="type/css" href="global.css"/>
+</head>
+<body>
+<div>
+    <form style="margin-top:100px" action="http://36.7.144.236:8088/asr/toText"
+          enctype="multipart/form-data" method="post">
+        <input class="margin1" type="file" name="files"> <br>
+        <input class="margin1" type="submit" value="识别"><br>
+    </form>
+</div>
+</body>
+</html>

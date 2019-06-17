@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../layer-v3.1.1/layer/theme/default/layer.css" />
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <form id='publicHeadinput'>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="userTax">userTax</label>
+                    <input type="email" class="form-control" name="userTax" id="userTax" placeholder="userTax">
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="compress">compress</label>
+                    <input type="text" class="form-control" name="compress" id="compress"
+                           placeholder="compress">
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="appKey">appKey</label>
+                    <select  class="form-control" name="appKey" id="appKey" >
+                        <option value="0">appKey</option>
+                    </select>
+                    <!--<input type="text" class="form-control" name="appKey" id="appKey" placeholder="appKey">-->
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="appRate">appRate</label>
+                    <input type="text" class="form-control" name="appRate" id="appRate"
+                           placeholder="appRate">
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="dataType">dataType</label>
+                    <input type="text" class="form-control" name="dataType" id="dataType"
+                           placeholder="dataType">
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="signMethod">signMethod</label>
+                    <input type="text" class="form-control" name="signMethod" id="signMethod"
+                           placeholder="signMethod">
+                </div>
+                <div class="form-group has-success has-feedback">
+                    <label class="control-label" for="accessToken">accessToken</label>
+                    <select class="form-control" name="accessToken" id="accessToken">
+                        <option value="0">accessToken</option>
+                    </select>
+                   <!-- <input type="text" class="form-control" name="accessToken" id="accessToken"
+                           placeholder="accessToken">-->
+                </div>
+                <button type="button" class="btn publicheadupd btn-default btn-success">修改</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="userTaxname">userTaxname</label>
+                <input type="email" class="form-control" name="userTaxname" id="userTaxname" placeholder="userTaxname">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="compressname">compressname</label>
+                <input type="text" class="form-control" name="compressname" id="compressname"
+                       placeholder="compressname">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="appKeyname">appKeyname</label>
+                <input type="text" class="form-control" name="appKeyname" id="appKeyname" placeholder="appKeyname">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="appRatename">appRatename</label>
+                <input type="text" class="form-control" name="appRatename" id="appRatename"
+                       placeholder="appRatename">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="dataTypename">dataTypename</label>
+                <input type="text" class="form-control" name="dataTypename" id="dataTypename"
+                       placeholder="dataTypename">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="signMethodname">signMethodname</label>
+                <input type="text" class="form-control" name="signMethodname" id="signMethodname"
+                       placeholder="signMethodname">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="accessTokenname">accessTokenname</label>
+               <input type="text" class="form-control" name="accessTokenname" id="accessTokenname"
+                       placeholder="accessTokenname">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bootstrap-3.3.7/dist/js/bootstrap.min.js" type="text/javascript"
+        charset="utf-8"></script>
+<script src="../layer-v3.1.1/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../js/app/publicHead.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
